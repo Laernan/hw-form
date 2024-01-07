@@ -81,6 +81,7 @@ h2 {
 
 .message {
     height: 130px;
+    padding-top: 20px;
 }
 
 .submit-button {
