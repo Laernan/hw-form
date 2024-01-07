@@ -4,5 +4,112 @@
 
 body {
     margin: 0;
+    height: 1500px;
+    font-family: 'Montserrat', sans-serif;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 650px;
+    border-radius: 12px;
+    background-color:  #F5F5FA;
+    box-shadow: 0px 15px 80px 0px rgba(40, 40, 86, 0.50);
+    gap: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: #323264;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    border: none;
+    background-color:  #F5F5FA;
+    right: 30px;
+    top: 30px;
+    padding: 0;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: normal;
+    background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:  #B3B3BA;
+}
+
+.field {
+    display: flex;
+    padding: 15px;
+    align-items: flex-start;
+    border-radius: 8px;
+    border: 1px solid  #FFF;
+    background-color:  #FFF;
+}
+
+.message {
+    height: 130px;
+}
+
+.submit-button {
+    display: flex;
+    padding: 18px 30px;
+    justify-content: center;
+    border-radius: 12px;
+    background-color:  #24A3FF;
+    box-shadow: 0px 0px 20px 0px rgba(36, 163, 255, 0.50);
+    color:  #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+.field::placeholder {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B3B3BA; 
+}
+
+.message::placeholder {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+   

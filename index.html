@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <section class="backdrop">
+        <form method="post" action="#">
+           <h1>We would like to help you</h1>
+           <button class="close" type="button"><img src="./Close.png" height="32px" width="32px"></button>
+           <div>
+                <input class="field" type="text" placeholder="Name">
+                <input class="field message" type="text" placeholder="Message">
+           </div>
+           <div>
+                <h2>How to answer you?</h2>
+                <input class="field" type="tel" placeholder="Phone number">
+                <input class="field" type="email" placeholder="Email">
+           </div>
+           <button class="submit-button" type="submit">Send message</button>
+        </form>
+    </section>
 </body>
 </html>
